@@ -24,7 +24,8 @@
     "url": "https://github.com/Amir-Zouerami/plugin-template/issues"
   },
   "peerDependencies": {
-    "grammy": "^1.5.1"
+    "grammy": "^1.5.1",
+    "awilix": "^8.0.1"
   },
   "devDependencies": {
     "deno2node": "~1.0.0"
