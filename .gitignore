@@ -22,3 +22,6 @@ package-lock.json
 
 # Build output
 out/
+
+# VS Code
+.vscode/
