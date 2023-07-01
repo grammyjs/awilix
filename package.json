@@ -1,8 +1,8 @@
 {
-  "name": "@grammyjs/plugin-template",
-  "version": "1.0.0",
-  "description": "A Simple Pluging Template For grammY",
-  "homepage": "https://grammy.dev/plugins/MYPLUGIN",
+  "name": "@grammyjs/awilix",
+  "version": "0.0.0",
+  "description": "grammY Awilix",
+  "homepage": "https://grammy.dev/plugins/awilix",
   "main": "./out/mod.js",
   "type": "commonjs",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Amir-Zouerami/plugin-template.git"
+    "url": "git+https://github.com/grammyjs/awilix.git"
   },
   "exports": {
     ".": "./out/mod.js"
@@ -18,10 +18,10 @@
   "files": [
     "out/"
   ],
-  "author": "Amir Zouerami",
+  "author": "Nazar Antoniuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Amir-Zouerami/plugin-template/issues"
+    "url": "https://github.com/grammyjs/awilix/issues"
   },
   "peerDependencies": {
     "grammy": "^1.5.1",
@@ -33,6 +33,12 @@
   "keywords": [
     "grammY",
     "Telegram bot framework",
-    "plugin"
+    "plugin",
+    "awilix",
+    "DI",
+    "IoC",
+    "dependency injection",
+    "inversion of control",
+    "container"
   ]
 }
