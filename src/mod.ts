@@ -1,13 +1,13 @@
 import { type AwilixContainer, Context, type MiddlewareFn } from "./deps.deno.ts";
 
-// TODO: Implement Cradle type settings for correct type output when resolving
-export type AwilixFlavor = {
-  diContainerScope: AwilixContainer;
+// deno-lint-ignore ban-types, no-explicit-any
+export type AwilixFlavor<Cradle extends object = any> = {
+  diContainerScope: AwilixContainer<Cradle>;
 };
 
 // TODO: add configuration
 export function awilix<C extends Context = Context>(
-  diContainer: AwilixContainer,
+  diContainer: AwilixFlavor["diContainerScope"],
 ): MiddlewareFn<C & AwilixFlavor> {
   return async (ctx, next) => {
     ctx.diContainerScope = diContainer.createScope();
