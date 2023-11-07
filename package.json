@@ -24,8 +24,8 @@
     "url": "https://github.com/grammyjs/awilix/issues"
   },
   "peerDependencies": {
-    "grammy": "^1.5.1",
-    "awilix": "^8.0.1"
+    "awilix": "^8.0.1",
+    "grammy": "^1.19.2"
   },
   "devDependencies": {
     "deno2node": "~1.0.0"
